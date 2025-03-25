@@ -15,5 +15,7 @@ namespace RevitConverter.Core.Models
         public GeometryModel Parent { get; set; }
         public List<GeometryModel> Children { get; set; } = new List<GeometryModel>();
         public bool IsValid => GeometryData != null && GeometryType != GeometryType.Unknown;
+        
+        public object RevitObject { get; set; }
     }
 }

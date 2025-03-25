@@ -1,11 +1,208 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Autodesk.Revit.SDK.2024/2024.0.0.2001": {
+        "type": "package",
+        "compile": {
+          "ref/net48/AdWindows.dll": {},
+          "ref/net48/RevitAPI.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIBrowserUtils.dll": {},
+          "ref/net48/RevitAPIExtData.dll": {},
+          "ref/net48/RevitAPIFoundation.dll": {},
+          "ref/net48/RevitAPIIFC.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPILink.dll": {},
+          "ref/net48/RevitAPIMacros.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIMacrosInterop.dll": {},
+          "ref/net48/RevitAPIMacrosInteropAPI.dll": {},
+          "ref/net48/RevitAPISteel.dll": {},
+          "ref/net48/RevitAPIUI.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIUILink.dll": {},
+          "ref/net48/RevitAPIUIMacros.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAPIUIMacrosInterop.dll": {},
+          "ref/net48/RevitAPIUIMacrosInteropAPI.dll": {},
+          "ref/net48/RevitAddInUtility.dll": {
+            "related": ".xml"
+          },
+          "ref/net48/RevitAssemblyResolver.dll": {},
+          "ref/net48/RevitDB.dll": {},
+          "ref/net48/RevitDBAPI.dll": {},
+          "ref/net48/RevitDBCore.dll": {},
+          "ref/net48/RevitDBCoreAPI.dll": {},
+          "ref/net48/RevitMFC.dll": {},
+          "ref/net48/RevitMFCAPI.dll": {},
+          "ref/net48/RevitMaterialUI3.dll": {},
+          "ref/net48/RevitNET.dll": {},
+          "ref/net48/RevitServerView.dll": {},
+          "ref/net48/RevitUI.dll": {},
+          "ref/net48/RevitUIAPI.dll": {}
+        }
+      },
+      "System.CommandLine/2.0.0-beta4.22272.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CommandLine.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CommandLine.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/cs/System.CommandLine.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0/de/System.CommandLine.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/es/System.CommandLine.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fr/System.CommandLine.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/it/System.CommandLine.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/System.CommandLine.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/ko/System.CommandLine.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/pl/System.CommandLine.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt-BR/System.CommandLine.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0/ru/System.CommandLine.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/tr/System.CommandLine.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/zh-Hans/System.CommandLine.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/System.CommandLine.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Autodesk.Revit.SDK.2024/2024.0.0.2001": {
+      "sha512": "nz0sLKAnftYgJFwB5k04u4Q4UX3ZWnMGQU5GH5qlB0XMtAY3fjw3Eo2JGB+CJios7vEIsDzfL55gLl2aD6ybHg==",
+      "type": "package",
+      "path": "autodesk.revit.sdk.2024/2024.0.0.2001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Revit.png",
+        "autodesk.revit.sdk.2024.2024.0.0.2001.nupkg.sha512",
+        "autodesk.revit.sdk.2024.nuspec",
+        "ref/net48/AdWindows.dll",
+        "ref/net48/RevitAPI.dll",
+        "ref/net48/RevitAPI.xml",
+        "ref/net48/RevitAPIBrowserUtils.dll",
+        "ref/net48/RevitAPIExtData.dll",
+        "ref/net48/RevitAPIFoundation.dll",
+        "ref/net48/RevitAPIIFC.dll",
+        "ref/net48/RevitAPIIFC.xml",
+        "ref/net48/RevitAPILink.dll",
+        "ref/net48/RevitAPIMacros.dll",
+        "ref/net48/RevitAPIMacros.xml",
+        "ref/net48/RevitAPIMacrosInterop.dll",
+        "ref/net48/RevitAPIMacrosInteropAPI.dll",
+        "ref/net48/RevitAPISteel.dll",
+        "ref/net48/RevitAPIUI.dll",
+        "ref/net48/RevitAPIUI.xml",
+        "ref/net48/RevitAPIUILink.dll",
+        "ref/net48/RevitAPIUIMacros.dll",
+        "ref/net48/RevitAPIUIMacros.xml",
+        "ref/net48/RevitAPIUIMacrosInterop.dll",
+        "ref/net48/RevitAPIUIMacrosInteropAPI.dll",
+        "ref/net48/RevitAddInUtility.dll",
+        "ref/net48/RevitAddInUtility.xml",
+        "ref/net48/RevitAssemblyResolver.dll",
+        "ref/net48/RevitDB.dll",
+        "ref/net48/RevitDBAPI.dll",
+        "ref/net48/RevitDBCore.dll",
+        "ref/net48/RevitDBCoreAPI.dll",
+        "ref/net48/RevitMFC.dll",
+        "ref/net48/RevitMFCAPI.dll",
+        "ref/net48/RevitMaterialUI3.dll",
+        "ref/net48/RevitNET.dll",
+        "ref/net48/RevitServerView.dll",
+        "ref/net48/RevitUI.dll",
+        "ref/net48/RevitUIAPI.dll"
+      ]
+    },
+    "System.CommandLine/2.0.0-beta4.22272.1": {
+      "sha512": "1uqED/q2H0kKoLJ4+hI2iPSBSEdTuhfCYADeJrAqERmiGQ2NNacYKRNEQ+gFbU4glgVyK8rxI+ZOe1onEtr/Pg==",
+      "type": "package",
+      "path": "system.commandline/2.0.0-beta4.22272.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/System.CommandLine.dll",
+        "lib/net6.0/System.CommandLine.pdb",
+        "lib/net6.0/System.CommandLine.xml",
+        "lib/net6.0/cs/System.CommandLine.resources.dll",
+        "lib/net6.0/de/System.CommandLine.resources.dll",
+        "lib/net6.0/es/System.CommandLine.resources.dll",
+        "lib/net6.0/fr/System.CommandLine.resources.dll",
+        "lib/net6.0/it/System.CommandLine.resources.dll",
+        "lib/net6.0/ja/System.CommandLine.resources.dll",
+        "lib/net6.0/ko/System.CommandLine.resources.dll",
+        "lib/net6.0/pl/System.CommandLine.resources.dll",
+        "lib/net6.0/pt-BR/System.CommandLine.resources.dll",
+        "lib/net6.0/ru/System.CommandLine.resources.dll",
+        "lib/net6.0/tr/System.CommandLine.resources.dll",
+        "lib/net6.0/zh-Hans/System.CommandLine.resources.dll",
+        "lib/net6.0/zh-Hant/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/System.CommandLine.dll",
+        "lib/netstandard2.0/System.CommandLine.pdb",
+        "lib/netstandard2.0/System.CommandLine.xml",
+        "lib/netstandard2.0/cs/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/de/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/es/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/fr/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/it/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ja/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ko/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/pl/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/pt-BR/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ru/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/tr/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/zh-Hans/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/zh-Hant/System.CommandLine.resources.dll",
+        "system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+        "system.commandline.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Autodesk.Revit.SDK.2024 >= 2024.0.0.2001",
+      "System.CommandLine >= 2.0.0-beta4.22272.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Andrii\\.nuget\\packages\\": {},
@@ -50,6 +247,16 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Autodesk.Revit.SDK.2024": {
+            "target": "Package",
+            "version": "[2024.0.0.2001, )"
+          },
+          "System.CommandLine": {
+            "target": "Package",
+            "version": "[2.0.0-beta4.22272.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -69,5 +276,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autodesk.Revit.SDK.2024 2024.0.0.2001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autodesk.Revit.SDK.2024",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

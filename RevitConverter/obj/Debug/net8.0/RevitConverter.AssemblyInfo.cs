@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RevitConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d375b8c96e463fb53abe258aac6121cd2b71037")]
 [assembly: System.Reflection.AssemblyProductAttribute("RevitConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RevitConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

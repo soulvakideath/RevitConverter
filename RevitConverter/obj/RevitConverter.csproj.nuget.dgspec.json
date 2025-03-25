@@ -43,6 +43,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Autodesk.Revit.SDK.2024": {
+              "target": "Package",
+              "version": "[2024.0.0.2001, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

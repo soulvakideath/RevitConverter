@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "k6/iy8gun8XOqv+TVonJ4XLEERp0Bq3hz89P9NmEd6CpStJ1yHhSHfJiM0H6Pje/CEfRN2saqkfkhsSxZqlrLQ==",
+  "dgSpecHash": "GmoAmyXJMe2lEJ90eyK37pTVJ6U8AvMbXSjrxjZ01pdCmO4uYC6UXSmQh44N336MofFe44YtmMIqf6CgdJhV+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrii\\Documents\\repos\\RevitConverter\\RevitConverter\\RevitConverter.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrii\\.nuget\\packages\\autodesk.revit.sdk.2024\\2024.0.0.2001\\autodesk.revit.sdk.2024.2024.0.0.2001.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autodesk.Revit.SDK.2024 2024.0.0.2001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autodesk.Revit.SDK.2024",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

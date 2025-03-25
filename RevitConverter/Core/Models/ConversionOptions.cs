@@ -14,5 +14,7 @@ namespace RevitConverter.Core.Models
         public string TemplateFilePath { get; set; }
         public bool DetailedProgress { get; set; } = false;
         public bool AutoDetermineFamilyType { get; set; } = true;
+        public object RevitDocument { get; set; }
+        public object RevitApplication { get; set; }
     }
 }
